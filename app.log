@@ -1954,3 +1954,33 @@ Caused by: java.lang.IllegalStateException: getWriter() has already been called 
 2024-04-19 13:26:42,002 - Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-04-19 13:26:42,024 - HikariPool-1 - Shutdown initiated...
 2024-04-19 13:26:42,048 - HikariPool-1 - Shutdown completed.
+2024-04-19 22:46:59,248 - Starting AssignmentApplication using Java 1.8.0_292 on SR7s-MacBook-Air.local with PID 44083 (/Users/saajraval/Desktop/phonebook-master/target/classes started by saajraval in /Users/saajraval/Desktop/phonebook-master)
+2024-04-19 22:46:59,254 - No active profile set, falling back to 1 default profile: "default"
+2024-04-19 22:46:59,258 - HV000001: Hibernate Validator 6.2.3.Final
+2024-04-19 22:47:00,423 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-19 22:47:00,547 - Finished Spring Data repository scanning in 113 ms. Found 3 JPA repository interfaces.
+2024-04-19 22:47:01,470 - Tomcat initialized with port(s): 9999 (http)
+2024-04-19 22:47:01,482 - Initializing ProtocolHandler ["http-nio-9999"]
+2024-04-19 22:47:01,482 - Starting service [Tomcat]
+2024-04-19 22:47:01,483 - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-04-19 22:47:01,596 - Initializing Spring embedded WebApplicationContext
+2024-04-19 22:47:01,597 - Root WebApplicationContext: initialization completed in 2276 ms
+2024-04-19 22:47:01,789 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-19 22:47:01,836 - HHH000412: Hibernate ORM core version 5.6.9.Final
+2024-04-19 22:47:02,004 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-04-19 22:47:02,085 - HikariPool-1 - Starting...
+2024-04-19 22:47:02,562 - HikariPool-1 - Start completed.
+2024-04-19 22:47:02,583 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-04-19 22:47:03,319 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-19 22:47:03,339 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-19 22:47:04,379 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-19 22:47:04,964 - Starting ProtocolHandler ["http-nio-9999"]
+2024-04-19 22:47:04,989 - Tomcat started on port(s): 9999 (http) with context path ''
+2024-04-19 22:47:05,284 - Started AssignmentApplication in 6.513 seconds (JVM running for 7.579)
+2024-04-19 22:47:12,195 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-19 22:47:12,197 - Initializing Servlet 'dispatcherServlet'
+2024-04-19 22:47:12,216 - Completed initialization in 19 ms
+2024-04-19 23:04:47,055 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'number' for method parameter type String is not present]
+2024-04-19 23:04:59,083 - No mapping for GET /favicon.ico
+2024-04-19 23:05:19,367 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'number' for method parameter type String is not present]
+2024-04-19 23:06:45,906 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'name' for method parameter type String is not present]
